@@ -1,0 +1,51 @@
+.body {
+    background-color: rgb(40, 40, 40);
+}
+
+.wrapper {
+    background-color: rgb(40, 40, 40);
+}
+
+.leaderboard-table, th, td {
+    background-color: steelblue;
+    border-style: solid;
+    border-color: gray;
+    width: fit-content;
+    text-align: right;
+    min-width: 100%;
+    padding: 2%;
+    border-collapse: collapse;
+    
+}
+
+.leaderboard-table-rule {
+    border-style: solid;
+    border-color: white;
+}
+
+.left-main {
+    width: 45%;
+    background-color: gray;
+    float: left;
+    border-radius: 10px;
+
+    margin: 1%;
+    padding: 1%;
+
+}
+
+.left-main h1 {
+    color: White;
+    text-align: center;
+}
+
+.right-main {
+    width: 45%;
+    background-color: gray;
+    float: right;
+    border-radius: 10px;
+
+    margin: 1%;
+    padding: 1%;
+
+}
