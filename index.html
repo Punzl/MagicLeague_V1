@@ -4,41 +4,184 @@
 <head>
     <title>Magic League</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
 </head>
 
-<body>
-    <div class="wrapper">
-
-        <div class="left-main">
-            <h1>Leaderboard</h1>
-            <table class="leaderboard-table">
-                <tr>
-                    <th>Player</th>
-                    <th>Win / Loss</th>
-                    <th>Elo</th>
-                    <th>Deck</th>
-                </tr>
-                <tr>
-                    <td>Yewie</td>
-                    <td>80 / 20</td>
-                    <td>2000</td>
-                    <td>Blue Control</td>
-                </tr>
-                <tr>
-                    <td>Willywerkel</td>
-                    <td>100 / 00</td>
-                    <td>2001</td>
-                    <td>Red Deck Wins</td>
-                </tr>                
-            </table>
+<body class="wrapper">
+        <div class="wrapper-header">
+            <div class="header-text">
+                <h1>
+                    Magic League
+                </h1>
+            </div>
+            <div class="header-login-form">
+                <form>
+                    <label>Username: </label>
+                    <input type="text" name="username" id="username" value="username">
+                    <br>
+                    <label>Password:</label>
+                    <input type="text" name="password" id="password" value="password">
+                    <br>
+                    <input type="submit" value="login">
+                </form>
+            </div>
         </div>
-
-        <div class="right-main">
-            <h1>Hallo Wir sind Magic</h1>
-            <p>hlsahdlksahdlksalkhdsa</p>            
+        <br>
+        <div class="wrapper-main">
+            <div class="left-main">
+                <h1>Leaderboard</h1>
+                <table class="leaderboard-table">
+                    <tr>
+                        <th>Player</th>
+                        <th>Win / Loss</th>
+                        <th>Elo</th>
+                        <th>Deck</th>
+                    </tr>
+                    <tr>
+                        <td>Yewie</td>
+                        <td>80 / 20</td>
+                        <td>2000</td>
+                        <td>Blue Control</td>
+                    </tr>
+                    <tr>
+                        <td>Willywerkel</td>
+                        <td>100 / 00</td>
+                        <td>2001</td>
+                        <td>Red Deck Wins</td>
+                    </tr>
+                    <tr>
+                        <td>Willywerkel</td>
+                        <td>100 / 00</td>
+                        <td>2001</td>
+                        <td>Red Deck Wins</td>
+                    </tr>
+                    <tr>
+                        <td>Willywerkel</td>
+                        <td>100 / 00</td>
+                        <td>2001</td>
+                        <td>Red Deck Wins</td>
+                    </tr>
+                    <tr>
+                        <td>Willywerkel</td>
+                        <td>100 / 00</td>
+                        <td>2001</td>
+                        <td>Red Deck Wins</td>
+                    </tr>
+                    <tr>
+                        <td>Willywerkel</td>
+                        <td>100 / 00</td>
+                        <td>2001</td>
+                        <td>Red Deck Wins</td>
+                    </tr>                        
+                    <tr>
+                        <td>Willywerkel</td>
+                        <td>100 / 00</td>
+                        <td>2001</td>
+                        <td>Red Deck Wins</td>
+                    </tr>
+                    <tr>
+                        <td>Willywerkel</td>
+                        <td>100 / 00</td>
+                        <td>2001</td>
+                        <td>Red Deck Wins</td>
+                    </tr>
+                    <tr>
+                        <td>Willywerkel</td>
+                        <td>100 / 00</td>
+                        <td>2001</td>
+                        <td>Red Deck Wins</td>
+                    </tr>
+                    <tr>
+                        <td>Willywerkel</td>
+                        <td>100 / 00</td>
+                        <td>2001</td>
+                        <td>Red Deck Wins</td>
+                    </tr>
+                                                                                                                                                          
+                </table>
+                <h3>> Add Game <</h3>
+            </div>
+            <div class="right-main">
+                <div class="trades">
+                <h1>< Trades ></h1>
+                <table class="trade-table">
+                    <tr>
+                        <th>Player</th>
+                        <th>Card</th>
+                        <th>Card</th>     
+                        <th>Player</th>                                      
+                    </tr>
+                    <tr>
+                        <td>Szuuuken</td>
+                        <td>Loxodon Smiter</td>
+                        <td>Red Land</td>
+                        <td>Willywerkel</td>                        
+                    </tr>
+                    <tr>
+                        <td>Punzl</td>
+                        <td>Mox Sapphire</td>
+                        <td>Bile Blight</td>
+                        <td>Yewie</td>
+                    </tr>
+                    <tr>
+                        <td>Kingslayer</td>
+                        <td>Intervention Pact</td>
+                        <td>Thoughtseize</td>
+                        <td>Punzl</td>                        
+                    </tr>
+                    <tr>
+                        <td>Yewie</td>
+                        <td>Lightning Bolt</td>
+                        <td>Serum Visions</td>
+                        <td>Szuuuken</td>                        
+                    </tr>
+                    <tr>
+                        <td>Albrecht</td>
+                        <td>Dig Through Time</td>
+                        <td>Negate</td>
+                        <td>Kingslayer</td>                        
+                    </tr>                                                                                
+                </table>
+                <h3>> All Trades <</h3>
+            </div>
+            </div>
         </div>
-    </div>
-
+        <br>
+        <hr class="horizontal-line">
+        <div class="wrapper-main-secondary">
+            <div class="left-secondary">
+                <h1>Decks / Spotted</h1>
+                <table class="left-secondary-table">
+                    <tr>
+                        <th>Player</th>
+                        <th>Deck Name</th>
+                    </tr>
+                    <tr>
+                        <td>Willywerkel</td>
+                        <td>Trample Ramp</td>
+                    </tr>
+                    <tr>
+                        <td>Yewie</td>
+                        <td>Schwarz/Blau Ninja Mill</td>
+                    </tr>
+                    <tr>
+                        <td>Punzl</td>
+                        <td>Quattro Formiaggi</td>
+                    </tr>
+                    <tr>
+                        <td>Albrecht</td>
+                        <td>Mono White Exile</td>
+                    </tr>
+                    <tr>
+                        <td>Bib</td>
+                        <td>Red Deck Wins</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="right-secondary">
+                <h1>Infos</h1>
+            </div>
+        </div>
 </body>
 
 </html>
