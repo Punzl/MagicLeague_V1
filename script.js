@@ -1,7 +1,7 @@
-let playerName = "";
-let playerElo = 0;
-let playerWins = 0;
-let playerLosses = 0;
-let playerDeck = "";
-
-
+// $(document).ready(function() {
+//     var bgArray = ['bg.jpg','bg2.jpg'];
+//     var bg = bgArray[Math.floor(Math.random() * bgArray.length)];
+//     var path = '/img';
+//     var imageUrl = path + bg;
+//     $('body').css('background-image', 'url(' + imageUrl +')');
+//   });
