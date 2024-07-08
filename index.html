@@ -1,187 +1,173 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Magic League</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+    <style>
+        [class*="col"] {
+            padding: 1rem;
+            background-color:steelblue;
+            border: 2px solid #343434;
+            color: #fff
+        }
+    </style>
+
 </head>
 
-<body class="wrapper">
-        <div class="wrapper-header">
-            <div class="header-text">
-                <h1>
-                    Magic League
-                </h1>
+<body style="background-image: url(/img/bg.jpg);background-repeat: no-repeat;background-size:cover;">
+
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-md" style="text-align: center;">
+                <h1>Magic League</h1>
             </div>
-            <div class="header-login-form">
-                <form>
-                    <label>Username: </label>
-                    <input type="text" name="username" id="username" value="username">
-                    <br>
-                    <label>Password:</label>
-                    <input type="text" name="password" id="password" value="password">
-                    <br>
-                    <input type="submit" value="login">
-                </form>
+            <div class="col-md" style="text-align: right;"><a href="#" class="btn btn-outline-light">Sign In</a></div>
+        </div>
+    </div>
+
+    <!-- 1. Reihe -->
+    <div class="container">
+        <div class="row">
+            <div class="col" style="text-align: center;">
+                <button type="button" class="btn btn-outline-light btn-lg">Submit Game</button>
+                <button type="button" class="btn btn-outline-light btn-lg">Make Trade</button>
+                <button type="button" class="btn btn-outline-light btn-lg">Report Player</button>
             </div>
         </div>
-        <br>
-        <div class="wrapper-main">
-            <div class="left-main">
-                <h1>Leaderboard</h1>
-                <table class="leaderboard-table">
-                    <tr>
-                        <th>Player</th>
-                        <th>Win / Loss</th>
-                        <th>Elo</th>
-                        <th>Deck</th>
-                    </tr>
-                    <tr>
-                        <td>Yewie</td>
-                        <td>80 / 20</td>
-                        <td>2000</td>
-                        <td>Blue Control</td>
-                    </tr>
-                    <tr>
-                        <td>Willywerkel</td>
-                        <td>100 / 00</td>
-                        <td>2001</td>
-                        <td>Red Deck Wins</td>
-                    </tr>
-                    <tr>
-                        <td>Willywerkel</td>
-                        <td>100 / 00</td>
-                        <td>2001</td>
-                        <td>Red Deck Wins</td>
-                    </tr>
-                    <tr>
-                        <td>Willywerkel</td>
-                        <td>100 / 00</td>
-                        <td>2001</td>
-                        <td>Red Deck Wins</td>
-                    </tr>
-                    <tr>
-                        <td>Willywerkel</td>
-                        <td>100 / 00</td>
-                        <td>2001</td>
-                        <td>Red Deck Wins</td>
-                    </tr>
-                    <tr>
-                        <td>Willywerkel</td>
-                        <td>100 / 00</td>
-                        <td>2001</td>
-                        <td>Red Deck Wins</td>
-                    </tr>                        
-                    <tr>
-                        <td>Willywerkel</td>
-                        <td>100 / 00</td>
-                        <td>2001</td>
-                        <td>Red Deck Wins</td>
-                    </tr>
-                    <tr>
-                        <td>Willywerkel</td>
-                        <td>100 / 00</td>
-                        <td>2001</td>
-                        <td>Red Deck Wins</td>
-                    </tr>
-                    <tr>
-                        <td>Willywerkel</td>
-                        <td>100 / 00</td>
-                        <td>2001</td>
-                        <td>Red Deck Wins</td>
-                    </tr>
-                    <tr>
-                        <td>Willywerkel</td>
-                        <td>100 / 00</td>
-                        <td>2001</td>
-                        <td>Red Deck Wins</td>
-                    </tr>
-                                                                                                                                                          
+    </div>
+
+    <!-- 2. Reihe -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg" style="text-align: center;">
+                <h2>Leaderboard</h2>
+                <table class="table table-dark table-striped">
+                    <thead>
+                        <tr class="table-info">
+                            <th scope="col">#</th>
+                            <th scope="col">Player</th>
+                            <th scope="col">Elo</th>
+                            <th scope="col">Gay?</th>
+                            <th scope="col">Deck</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-dark">
+                            <th scope="row">1</th>
+                            <td>Yewie</td>
+                            <td>1860</td>
+                            <td>yes</td>
+                            <td><button>view</button></td>
+                        </tr>
+                        <tr class="table-dark">
+                            <th scope="row">2</th>
+                            <td>Willywerkel</td>
+                            <td>1750</td>
+                            <td>yes</td>
+                            <td><button>view</button></td>
+                        </tr>
+                        <tr class="table-dark">
+                            <th scope="row">3</th>
+                            <td>Punzl</td>
+                            <td>1748</td>
+                            <td>extreme</td>
+                            <td><button>view</button></td>
+                        </tr>
+                    </tbody>
                 </table>
-                <h3>> Add Game <</h3>
             </div>
-            <div class="right-main">
-                <div class="trades">
-                <h1>< Trades ></h1>
-                <table class="trade-table">
-                    <tr>
-                        <th>Player</th>
-                        <th>Card</th>
-                        <th>Card</th>     
-                        <th>Player</th>                                      
-                    </tr>
-                    <tr>
-                        <td>Szuuuken</td>
-                        <td>Loxodon Smiter</td>
-                        <td>Red Land</td>
-                        <td>Willywerkel</td>                        
-                    </tr>
-                    <tr>
-                        <td>Punzl</td>
-                        <td>Mox Sapphire</td>
-                        <td>Bile Blight</td>
-                        <td>Yewie</td>
-                    </tr>
-                    <tr>
-                        <td>Kingslayer</td>
-                        <td>Intervention Pact</td>
-                        <td>Thoughtseize</td>
-                        <td>Punzl</td>                        
-                    </tr>
-                    <tr>
-                        <td>Yewie</td>
-                        <td>Lightning Bolt</td>
-                        <td>Serum Visions</td>
-                        <td>Szuuuken</td>                        
-                    </tr>
-                    <tr>
-                        <td>Albrecht</td>
-                        <td>Dig Through Time</td>
-                        <td>Negate</td>
-                        <td>Kingslayer</td>                        
-                    </tr>                                                                                
+            <div class="col-lg" style="text-align: center;">
+                <h2>Trades</h2>
+                <br>
+                <table class="table table-dark table-striped">
+                    <tbody>
+                        <tr class="table-dark">
+                            <th scope="row">Yewie</th>
+                            <td>Blie Blight</td>
+                            <td>
+                                <:>
+                            </td>
+                            <td>Lightning Bolt</td>
+                            <th>Willywerkel</th>
+                        </tr>
+                        <tr class="table-dark">
+                            <th scope="row">Punzl</th>
+                            <td>Loxodon Smiter</td>
+                            <td>
+                                <:>
+                            </td>
+                            <td>Serum Visions</td>
+                            <th>Szuuuken</th>
+                        </tr>
+                        <tr class="table-dark">
+                            <th scope="row">Bib</th>
+                            <td>Necrogen Mists</td>
+                            <td>
+                                <:>
+                            </td>
+                            <td>Student of Elements</td>
+                            <th>Luki</th>
+                        </tr>
+                    </tbody>
                 </table>
-                <h3>> All Trades <</h3>
             </div>
+            <div class="col-xxl-2" style="text-align: center;">
+                <h2>Börse</h2>
+                <table class="table table-dark table-striped">
+                    <tbody>
+                        <tr class="table-dark">
+                            <th scope="row">Player</th>
+                            <th>Bietet</th>
+                        </tr>
+                        <tr class="table-dark">
+                            <td>Yewie</td>
+                            <td>Nyxbloom Ancient</td>                            
+
+                        </tr>
+                        <tr class="table-dark">
+                            <td>Willywerkel</td>    
+                            <td>Lava Spike</td>    
+
+
+
+                        </tr>
+                    </tbody>
+                </table>                
             </div>
         </div>
-        <br>
-        <hr class="horizontal-line">
-        <div class="wrapper-main-secondary">
-            <div class="left-secondary">
-                <h1>Decks / Spotted</h1>
-                <table class="left-secondary-table">
-                    <tr>
-                        <th>Player</th>
-                        <th>Deck Name</th>
-                    </tr>
-                    <tr>
-                        <td>Willywerkel</td>
-                        <td>Trample Ramp</td>
-                    </tr>
-                    <tr>
-                        <td>Yewie</td>
-                        <td>Schwarz/Blau Ninja Mill</td>
-                    </tr>
-                    <tr>
-                        <td>Punzl</td>
-                        <td>Quattro Formiaggi</td>
-                    </tr>
-                    <tr>
-                        <td>Albrecht</td>
-                        <td>Mono White Exile</td>
-                    </tr>
-                    <tr>
-                        <td>Bib</td>
-                        <td>Red Deck Wins</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="right-secondary">
-                <h1>Infos</h1>
+
+        <!-- 3. Reihe -->
+        <div class="container">
+            <div class="row gx-5" style="text-align: center;">
+                <div class="col">
+                    <h3>Announcements</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam quos, labore impedit consequatur et voluptas distinctio obcaecati aperiam fugit voluptatibus officiis, repellendus dolor nisi a adipisci nam iste expedita!
+                    </p>
+                </div>
+                <div class="col">
+                    <h3>Game Modes</h3>
+                    <p>1 v 1</p>
+                    <p>2 Headed Giant</p>
+                    <p>4 Headed Giant</p>
+                    <p>Commander</p>
+                    <p>Pauper</p>
+                    <p>Stern</p>
+                </div>
+                <div class="col">
+                    <h3>Fun Modes</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur delectus maxime suscipit eos beatae deserunt nulla voluptates inventore, saepe aut repellendus amet labore ea ducimus dicta aspernatur praesentium vel nihil?</p>
+                </div>
             </div>
         </div>
+
+
+        <script src="js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
